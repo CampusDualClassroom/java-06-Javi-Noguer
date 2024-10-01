@@ -12,7 +12,7 @@ public class Exercise06 {
     }
 
     //TODO ↓
-    // Si la hora es desde las 0:00 a las 6:59, imprimir por pantalla → It's night
+    // Si la hora es desde las 0:00 a las 6:59, imprimir por pantalla → It's night 
     // Si la hora es desde las 7:00 a las 13:59, imprimir por pantalla → It's morning
     // Si la hora es desde las 14:00 a las 20:59, imprimir por pantalla → It's afternoon
     // Si la hora es desde las 21:00 a las 23:59, imprimir por pantalla → It's night
