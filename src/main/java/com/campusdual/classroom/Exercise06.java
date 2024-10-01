@@ -17,43 +17,56 @@ public class Exercise06 {
     // Si la hora es desde las 14:00 a las 20:59, imprimir por pantalla → It's afternoon
     // Si la hora es desde las 21:00 a las 23:59, imprimir por pantalla → It's night
     public static void checkHour(int hour) {
-        {
-            switch (hour) {
-                case 21:
-                case 22:
-                case 23:
-                case 0:
-                case 1:
-                case 2:
-                case 3:
-                case 4:
-                case 5:
-                case 6: {
-
-                }
-                case 7:
-                case 8:
-                case 9:
-                case 10:
-                case 11:
-                case 12:
-                case 13: {
-
-
-                }
-                case 14:
-                case 15:
-                case 16:
-                case 17:
-                case 18:
-                case 19:
-                case 20: {
-
-
-                }
-                default:
-                    throw new IllegalArgumentException("Unexpected value: " + hour);
-            }
+        switch (hour) {
+            case 21:
+                System.out.println("It's night");
+            case 22:
+                System.out.println("It's night");
+            case 23:
+                System.out.println("It's night");
+            case 0:
+                System.out.println("It's night");
+            case 1:
+                System.out.println("It's night");
+            case 2:
+                System.out.println("It's night");
+            case 3:
+                System.out.println("It's night");
+            case 4:
+                System.out.println("It's night");
+            case 5:
+                System.out.println("It's night");
+            case 6:
+                System.out.println("It's night");
+            case 7:
+                System.out.println("It's morning");
+            case 8:
+                System.out.println("It's morning");
+            case 9:
+                System.out.println("It's morning");
+            case 10:
+                System.out.println("It's morning");
+            case 11:
+                System.out.println("It's morning");
+            case 12:
+                System.out.println("It's morning");
+            case 13:
+                System.out.println("It's morning");
+            case 14:
+                System.out.println("It's afternoon");
+            case 15:
+                System.out.println("It's afternoon");
+            case 16:
+                System.out.println("It's afternoon");
+            case 17:
+                System.out.println("It's afternoon");
+            case 18:
+                System.out.println("It's afternoon");
+            case 19:
+                System.out.println("It's afternoon");
+            case 20:
+                System.out.println("It's afternoon");
+            default: throw new IllegalArgumentException("Unexpected value: " + hour);
         }
     }
 
@@ -65,32 +78,30 @@ public class Exercise06 {
     public static void checkSeason(int month) {
         switch (month) {
             case 1:
+                System.out.println("Winter");
             case 2:
-            case 3: {
-
-
-            }
+                System.out.println("Winter");
+            case 3:
+                System.out.println("Winter");
             case 4:
+                System.out.println("Spring");
             case 5:
-            case 6: {
-
-
-            }
+                System.out.println("Spring");
+            case 6:
+                System.out.println("Spring");
             case 7:
+                System.out.println("Summer");
             case 8:
-            case 9: {
-
-
-            }
+                System.out.println("Summer");
+            case 9:
+                System.out.println("Summer");
             case 10:
+                System.out.println("Autumn");
             case 11:
-            case 12: {
-
-
-            }
-            default:
-                throw new IllegalArgumentException("Unexpected value: " + month);
+                System.out.println("Autumn");
+            case 12:
+                System.out.println("Autumn");
+            default: throw new IllegalArgumentException("Unexpected value: " + month);
         }
     }
-
 }
